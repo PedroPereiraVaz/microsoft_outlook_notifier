@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="res_config_settings_view_form" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.outlook_notifier</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="microsoft_outlook.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <div id="outlook_client_secret" position="after">
+                <div class="row mt16">
+                    <label string="Secret Expires On" for="microsoft_outlook_secret_expiration"
+                        class="col-lg-3 o_light_label"/>
+                    <field name="microsoft_outlook_secret_expiration" class="ms-2"/>
+                    <span class="text-muted small ms-2">(30 day advance warning)</span>
+                </div>
+            </div>
+        </field>
+    </record>
+</odoo>

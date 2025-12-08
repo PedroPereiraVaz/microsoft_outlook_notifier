@@ -1,0 +1,103 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* microsoft_outlook_notifier
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-08 11:34+0000\n"
+"PO-Revision-Date: 2025-12-08 11:34+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: microsoft_outlook_notifier
+#. odoo-python
+#: code:addons/microsoft_outlook_notifier/models/outlook_notifier.py:0
+msgid ""
+"<br/><br/><b>Pasos para solucionar:</b>\n"
+"1. Ir a Azure Portal → App registrations → Tu App → Certificates & secrets\n"
+"2. Crear un nuevo client secret (si expiró)\n"
+"3. Actualizar el secret en Odoo → Settings → Outlook\n"
+"4. Volver a autorizar los servidores de correo"
+msgstr ""
+"<br/><br/><b>Pasos para solucionar:</b>\n"
+"1. Ir a Azure Portal → App registrations → Tu App → Certificates & secrets\n"
+"2. Crear un nuevo client secret (si expiró)\n"
+"3. Actualizar el secret en Odoo → Settings → Outlook\n"
+"4. Volver a autorizar los servidores de correo"
+
+#. module: microsoft_outlook_notifier
+#: model_terms:ir.ui.view,arch_db:microsoft_outlook_notifier.res_config_settings_view_form
+msgid "<span class=\"text-muted small ms-2\">(30 day advance warning)</span>"
+msgstr "<span class=\"text-muted small ms-2\">(aviso 30 días antes)</span>"
+
+#. module: microsoft_outlook_notifier
+#: model:ir.actions.server,name:microsoft_outlook_notifier.ir_cron_check_outlook_tokens_ir_actions_server
+msgid "Check Microsoft Outlook Tokens"
+msgstr "Comprobar tokens de Microsoft Outlook"
+
+#. module: microsoft_outlook_notifier
+#: model:ir.model,name:microsoft_outlook_notifier.model_res_config_settings
+msgid "Config Settings"
+msgstr "Ajustes de configuración"
+
+#. module: microsoft_outlook_notifier
+#: model:ir.model.fields,help:microsoft_outlook_notifier.field_res_config_settings__microsoft_outlook_secret_expiration
+msgid "Expiration date of your Azure AD client secret."
+msgstr "Fecha de expiración de su secreto de cliente de Azure AD."
+
+#. module: microsoft_outlook_notifier
+#: model:ir.model,name:microsoft_outlook_notifier.model_outlook_secret_notifier
+msgid "Microsoft Outlook Secret Notifier"
+msgstr "Notificador de secretos de Microsoft Outlook"
+
+#. module: microsoft_outlook_notifier
+#: model:ir.model.fields,field_description:microsoft_outlook_notifier.field_res_config_settings__microsoft_outlook_secret_expiration
+msgid "Outlook Secret Expiration Date"
+msgstr "Fecha de expiración del secreto de Outlook"
+
+#. module: microsoft_outlook_notifier
+#: model_terms:ir.ui.view,arch_db:microsoft_outlook_notifier.res_config_settings_view_form
+msgid "Secret Expires On"
+msgstr "Secreto expira"
+
+#. module: microsoft_outlook_notifier
+#. odoo-python
+#: code:addons/microsoft_outlook_notifier/models/outlook_notifier.py:0
+msgid "⚠️ El client secret de Outlook EXPIRÓ hace %d días."
+msgstr "⚠️ El client secret de Outlook EXPIRÓ hace %d días."
+
+#. module: microsoft_outlook_notifier
+#. odoo-python
+#: code:addons/microsoft_outlook_notifier/models/outlook_notifier.py:0
+msgid "⚠️ El client secret de Outlook expira HOY."
+msgstr "⚠️ El client secret de Outlook expira HOY."
+
+#. module: microsoft_outlook_notifier
+#. odoo-python
+#: code:addons/microsoft_outlook_notifier/models/outlook_notifier.py:0
+msgid "❌ Servidor entrante \"%s\": %s"
+msgstr "❌ Servidor entrante \"%s\": %s"
+
+#. module: microsoft_outlook_notifier
+#. odoo-python
+#: code:addons/microsoft_outlook_notifier/models/outlook_notifier.py:0
+msgid "❌ Servidor saliente \"%s\": %s"
+msgstr "❌ Servidor saliente \"%s\": %s"
+
+#. module: microsoft_outlook_notifier
+#. odoo-python
+#: code:addons/microsoft_outlook_notifier/models/outlook_notifier.py:0
+msgid "🔔 Alerta Microsoft Outlook"
+msgstr "🔔 Alerta Microsoft Outlook"
+
+#. module: microsoft_outlook_notifier
+#. odoo-python
+#: code:addons/microsoft_outlook_notifier/models/outlook_notifier.py:0
+msgid "🔔 El client secret de Outlook expira en %d días (%s)."
+msgstr "🔔 El client secret de Outlook expira en %d días (%s)."
