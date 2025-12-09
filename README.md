@@ -681,16 +681,3 @@ LGPL-3 (igual que Odoo Community)
 Pedro
 
 ---
-
-## Changelog
-
-### v1.1 (2025-12-05)
-
-- Refactorizado a arquitectura simplificada
-- Eliminado override de mixin
-- Un solo cron que valida tokens Y verifica fecha
-- Mejor manejo de errores
-
-### v1.0 (2025-12-05)
-
-- Versión inicial
