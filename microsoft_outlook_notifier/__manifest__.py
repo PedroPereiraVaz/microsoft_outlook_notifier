@@ -31,8 +31,6 @@
         1. Ve a Ajustes → General → sección Outlook
         2. Establece "Secret Expires On" con la fecha de expiración de tu secret
         3. El módulo validará los tokens diariamente
-
-        Documentación completa en README_DOCUMENTATION.md
     """,
     "depends": ["microsoft_outlook"],
     "data": [
